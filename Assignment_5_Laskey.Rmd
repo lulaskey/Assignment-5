@@ -1,0 +1,16 @@
+---
+title: "Assignment_5_Laskey"
+author: "Lucinda Laskey"
+date: "10/12/2021"
+output: html_document
+---
+
+```{include=FALSE}
+```
+
+##Introduction
+Logging has many negative impacts on ecosystems, and their populations within them; including flora and fauna (and human communities and the public and private sectors), though there is an increasing demand for timber in other parts of the world, which has been driving the illegal timber market. There is a need for a balance: meeting consumer demands while maintaining safe populations and ecosystems, this is hopefully achieved by establishing communication between companies and organizations and implementing actions to  prevent illegal timber harvesting, processing and trading
+
+
+
+TRAFFIC and WWF. (2009). Framework for assessing the legality of forestry operations, timber processing and trade
