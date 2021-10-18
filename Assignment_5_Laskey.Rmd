@@ -8,27 +8,32 @@ output: html_document
 ```{include=FALSE}
 ```
 
-##Introduction
-Logging has many negative impacts on ecosystems, and their populations within them; including flora and fauna (and human communities and the public and private sectors), though there is an increasing demand for timber in other parts of the world, which has been driving the illegal timber market. There is a need for a balance: meeting consumer demands while maintaining safe populations and ecosystems, this is hopefully achieved by establishing communication between companies and organizations and implementing actions to  prevent illegal timber harvesting, processing and trading
+## Introduction
 
-##Methods 
-A five-Step process was followed during the development of this framework:
-1. Compiling the legal base
-2. Initial stakeholder consultation
-3. Drafting the national framework
-4. Subsequent stakeholder consultation and national framework revision
-5. Legal and audit expert review
-The framework has 9 broad legal principles: access, use rights and tenure; harvesting regulations; transportation of logs and wood products; processing regulations; import and export regulations; environmental regulations; conservation regulations; social regulations; taxes, fees and royalties; subcontractors and partners (specific to africa)
-Data was collected as follows:
-• Central African Republic, September 2006
-• Democratic Republic of Congo, October 2006
-• Republic of Congo, October 2006
-• Gabon, February 2007
-• Vietnam, February 2007
-• Beijing, China, April 2007 
+Logging has many negative impacts on ecosystems, and their populations within them; including flora and fauna (and human communities and the public and private sectors), though there is an increasing demand for timber in other parts of the world, which has been driving the illegal timber market.     
+There is a need for a balance: meeting consumer demands while maintaining safe populations and ecosystems, this is hopefully achieved by establishing communication between companies and organizations and implementing actions to  prevent illegal timber harvesting, processing and trading
+
+## Methods 
+
+A five-Step process was followed during the development of this framework:   
+1. Compiling the legal base   
+2. Initial stakeholder consultation    
+3. Drafting the national framework     
+4. Subsequent stakeholder consultation and national framework revision     
+5. Legal and audit expert review    
+   
+The framework has 9 broad legal principles: access, use rights and tenure; harvesting regulations; transportation of logs and wood products; processing regulations; import and export regulations; environmental regulations; conservation regulations; social regulations; taxes, fees and royalties; subcontractors and partners (specific to Africa)  
+   
+Data was collected as follows:  
+• Central African Republic, September 2006   
+• Democratic Republic of Congo, October 2006   
+• Republic of Congo, October 2006   
+• Gabon, February 2007   
+• Vietnam, February 2007   
+• Beijing, China, April 2007  
 
 ```{r}
-Principle <-  c(1,2,3,4,5,6,7,8,9,10)
+Principle <- c(1,2,3,4,5,6,7,8,9,10)
 Criterion <- c(4,3,2,2,3,2,2,4,2,2)
 data <- data.frame(Principle, Criterion)      
 plot(data$Principle, data$Criterion,
@@ -36,12 +41,12 @@ plot(data$Principle, data$Criterion,
         xlab ="Principles", ylab = "Criterion")
 ```
 
+## Results and Conclusions 
 
-##Results and Conclusions 
-The goal of the framework is to provide better resources for governing bodies so that they might have a better chance combating the illegal timber traded systems and encourage illegal traders to comply with laws at both domestic and international levels; it also aims to establish consistency around the world with how the legality of timber trade is handled, established and understood.
-It is known that because of the generic nature of the criteria that not all countries will be able to follow it completely.
+The goal of the framework is to provide better resources for governing bodies so that they might have a better chance combating the illegal timber traded systems and encourage illegal traders to comply with laws at both domestic and international levels; it also aims to establish consistency around the world with how the legality of timber trade is handled, established and understood.   
+It is known that because of the generic nature of the criteria that not all countries will be able to follow it completely.    
 The framework is designed to help guide the legality of forestry operations, timber trade and processing all accros the globe and will hopefully be updated regularly.
 
-##Works Cited
-TRAFFIC and WWF. (2009). Framework for assessing the legality of forestry operations, timber processing and trade
+## Works Cited
+TRAFFIC and WWF. (2009). Framework for assessing the legality of forestry operations, timber processing and trade.
 
